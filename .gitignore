@@ -1,0 +1,17 @@
+# 构建产物（build.sh 用 build_out，CLion 用 cmake-build-*）
+build_out/
+cmake-build-*/
+_CPack_Packages/
+
+# IDE 工程文件（远程开发会自动生成，别人机器上路径也不同）
+.idea/
+*.iml
+
+# 编译/打包产物与临时文件
+*.run
+*.run.json
+*.log
+*.o
+*.so
+__pycache__/
+.DS_Store
